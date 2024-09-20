@@ -20,10 +20,10 @@ taskForm: any;
 
     this.taskArray.push({
       taskName: form.controls['task'].value,
-      isCompleted: false,
+      isCompleted: false,  
     });
     form.reset()
-  }
+  };
 
   onDelete(index: number) {
     console.log(index);
